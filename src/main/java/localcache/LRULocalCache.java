@@ -16,6 +16,7 @@ public class LRULocalCache implements LocalCache {
 
 	private Map<String, Node> cache = new HashMap<>();
 
+	//Double linked list for storing values insertion order
 	private Node tail;
 	private Node head;
 
