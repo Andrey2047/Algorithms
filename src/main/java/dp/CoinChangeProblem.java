@@ -16,6 +16,7 @@ public class CoinChangeProblem {
 
 		long[][] T = new long[c.length][(int) (n + 1)];
 
+		//Fill zero cases
 		for (int i = 0; i < c.length; i++) {
 			T[i][0] = 1;
 		}
