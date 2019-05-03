@@ -102,7 +102,7 @@ public class LRULocalCache implements LocalCache {
 		return toReturn;
 	}
 
-	private class Node {
+	public static class Node {
 
 		private String value;
 		private String key;
@@ -116,6 +116,7 @@ public class LRULocalCache implements LocalCache {
 			this.prev = prev;
 			this.next = next;
 		}
+
 	}
 
 }
