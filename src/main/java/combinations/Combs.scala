@@ -26,6 +26,6 @@ object Combs {
       combsInner(k, List(), a)
     }
 
-    println(combs(3, List('a', 'b', 'c', 'd', 'e', 'f')).size)
+    println(combs(3, List('a', 'b', 'c', 'd', 'e', 'f')))
   }
 }
