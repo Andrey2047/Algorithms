@@ -1,10 +1,4 @@
-package scalafp
-
-import scalafp.FPInScalaS7.Par.{ Par, map, unit }
-
-import scala.concurrent.duration.TimeUnit
-
-import java.util.concurrent.{ Callable, TimeUnit, ExecutorService, Future }
+package scalafpexcersises;
 
 object FPInScalaS7 {
 

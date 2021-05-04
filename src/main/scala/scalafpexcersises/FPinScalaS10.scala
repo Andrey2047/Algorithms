@@ -1,9 +1,4 @@
-package scalafp
-
-import scalafp.paralelism.Par
-import scalafp.paralelism.Par.Par
-import scalafp.testing.Prop._
-import scalafp.testing.{ Gen, Prop, SimpleRNG }
+package scalafpexcersises;
 
 object FPinScalaS10 {
 

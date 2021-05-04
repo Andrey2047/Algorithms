@@ -1,6 +1,4 @@
-package scalafp
-
-import java.util.concurrent.{ Executors => E, ExecutorService }
+package scalafpexcersises;
 
 object Executors {
   val cores = Runtime.getRuntime.availableProcessors

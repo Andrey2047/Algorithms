@@ -1,8 +1,4 @@
-package scalafp
-
-import scalafp.state.M
-import scalafp.state.M.{ Coin, Turn }
-import scalafp.testing.{ RNG, SimpleRNG }
+package scalafpexcersises;
 
 object FPInScalaS6 {
 

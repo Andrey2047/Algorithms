@@ -1,7 +1,4 @@
-package scalafp
-
-import scalafp.stream.Stream.cons
-import scalafp.option.{ None, Option, Some }
+package scalafpexcersises;
 
 object FPinScalaS5 {
 
