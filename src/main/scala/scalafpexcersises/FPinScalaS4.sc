@@ -1,6 +1,6 @@
 
-import scalafp.option.Some
-import scalafp.{ option, _ }
+import scalafpexcersises.option.Some
+import scalafpexcersises.{ option, _ }
 
 def mean(xs: Seq[Double]): option.Option[Double] = {
   if (xs.isEmpty) {

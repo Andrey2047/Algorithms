@@ -1,4 +1,4 @@
-package scalafp.io.tailRec
+package scalafpexcersises.io.tailRec
 
 import scala.annotation.tailrec
 
@@ -9,7 +9,6 @@ sealed trait TailRec[A] {
 
   def map[B](f: A => B): TailRec[B] =
     flatMap(f.andThen(x => Return(x)))
-
 
 }
 

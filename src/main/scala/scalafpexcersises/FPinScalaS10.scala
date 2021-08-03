@@ -1,4 +1,7 @@
-package scalafpexcersises;
+package scalafpexcersises
+
+import scalafpexcersises.testing.{ Gen, Prop }
+;
 
 object FPinScalaS10 {
 

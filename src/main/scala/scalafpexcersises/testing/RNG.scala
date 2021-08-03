@@ -1,4 +1,4 @@
-package scalafp.testing
+package scalafpexcersises.testing
 
 trait RNG {
 

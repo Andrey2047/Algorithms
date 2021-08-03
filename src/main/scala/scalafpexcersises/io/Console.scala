@@ -1,9 +1,9 @@
-package scalafp.io
+package scalafpexcersises.io
 
-import scalafp.io.free.Free
-import scalafp.paralelism.Par
-import scalafp.paralelism.Par.Par
-import scalafp.io.free._
+import scalafpexcersises.io.free.Free
+import scalafpexcersises.paralelism.Par
+import scalafpexcersises.paralelism.Par.Par
+import scalafpexcersises.io.free._
 import scalafp.monad.Monad
 
 sealed trait Console[A] {

@@ -1,4 +1,4 @@
-package scalafp.option
+package scalafpexcersises.option
 
 //4.1
 sealed trait Option[+A] extends Product with Serializable {

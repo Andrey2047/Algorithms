@@ -1,7 +1,7 @@
-package scalafp.io
+package scalafpexcersises.io
 
-import scalafp.io.io.IO
-import scalafp.io.io.IO._
+import scalafpexcersises.io.io.IO
+import scalafpexcersises.io.io.IO._
 
 object Runner {
 

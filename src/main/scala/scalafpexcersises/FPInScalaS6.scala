@@ -1,4 +1,9 @@
-package scalafpexcersises;
+package scalafpexcersises
+
+import scalafpexcersises.state.M
+import scalafpexcersises.state.M.{ Coin, Turn }
+import scalafpexcersises.testing.{ RNG, SimpleRNG }
+
 
 object FPInScalaS6 {
 

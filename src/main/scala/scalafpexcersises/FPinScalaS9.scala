@@ -1,4 +1,4 @@
-package scalafpexcersises;
+package scalafpexcersisesexcersises;
 
 object FPinScalaS9 {
 

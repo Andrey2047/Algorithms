@@ -1,4 +1,4 @@
-package scalafp.stream
+package scalafpexcersises.stream
 
 
 sealed trait Stream[+A] {

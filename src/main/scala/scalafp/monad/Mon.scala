@@ -1,7 +1,7 @@
 package scalafp.monad
 
-import scalafp.testing.Gen
-import scalafp.stream.Stream
+import scalafpexcersises.testing.Gen
+import scalafpexcersises.stream.Stream
 
 trait Mon[F[_]] {
   def map[A,B](fa: F[A])(f: A => B): F[B] =

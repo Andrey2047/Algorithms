@@ -1,8 +1,8 @@
-package scalafp.parsers
+package scalafpexcersises.parsers
 import java.util.regex._
 
-import scalafp.testing.{ Gen, Prop }
-import scalafp.testing.Prop._
+import scalafpexcersises.testing.{ Gen, Prop }
+import scalafpexcersises.testing.Prop._
 
 import scala.language.{ higherKinds, implicitConversions }
 import scala.util.matching.Regex

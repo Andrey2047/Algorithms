@@ -1,4 +1,10 @@
-package scalafpexcersises;
+package scalafpexcersises
+
+import java.util.concurrent.{ Callable, ExecutorService }
+
+import scala.concurrent.Future
+import scala.concurrent.duration.TimeUnit
+;
 
 object FPInScalaS7 {
 

@@ -1,4 +1,4 @@
-package scalafp.monoid
+package scalafpexcersises.monoid
 
 
 trait Monoid[A] {

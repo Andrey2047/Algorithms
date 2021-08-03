@@ -1,9 +1,9 @@
-package scalafp.io.par
+package scalafpexcersises.io.par
 
 import java.util.concurrent.{ ExecutorService, Executors }
 
-import scalafp.paralelism.Par
-import scalafp.paralelism.Par.Par
+import scalafpexcersises.paralelism.Par
+import scalafpexcersises.paralelism.Par.Par
 
 sealed trait Async[A] {
   def flatMap[B](f: A => Async[B]): Async[B] =

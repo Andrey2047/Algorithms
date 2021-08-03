@@ -1,6 +1,6 @@
-package scalafp
+package scalafpexcersises
 
-import scalafp.io.io.IO
+import scalafpexcersises.io.io.IO
 
 import scala.io.Source
 

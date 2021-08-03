@@ -1,16 +1,16 @@
-package scalafp.testing
+package scalafpexcersises.testing
 import Prop._
-import scalafp.stream.Stream
+import scalafpexcersises.stream.Stream
 
 case class Prop(run: (MaxSize, TestCases, RNG) => Result) {
 
   /**
     * Exercise 09
-    * Now that we have a representation of scalafp.testing.Prop, implement &&, and || for
-    * manipulating scalafp.testing.Prop values. While we can implement &&, notice that in the
+    * Now that we have a representation of scalafpexcersises.testing.Prop, implement &&, and || for
+    * manipulating scalafpexcersises.testing.Prop values. While we can implement &&, notice that in the
     * case of failure we aren't informed which property was responsible, the left
     * or the right.
-    * (Optional): Can you devise a way of handling this, perhaps by allowing scalafp.testing.Prop
+    * (Optional): Can you devise a way of handling this, perhaps by allowing scalafpexcersises.testing.Prop
     * values to be assigned a tag or label which gets displayed in the event of a
     * failure?
     */

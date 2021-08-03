@@ -1,4 +1,4 @@
-package scalafp.parsers
+package scalafpexcersises.parsers
 
 import ReferenceTypes._
 import scala.util.matching.Regex

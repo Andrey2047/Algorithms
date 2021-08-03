@@ -1,4 +1,6 @@
-package scalafpexcersises;
+package scalafpexcersises
+
+import scalafpexcersises.stream.Cons
 
 object FPinScalaS5 {
 
@@ -26,15 +28,15 @@ object FPinScalaS5 {
   }
 
   //Ex. 5.8
-  def constant[A](a: A): stream.Stream[A] = {
-    lazy val st: stream.Stream[A] = cons(a, st)
-    st
-  }
-
-  //Ex 5.9
-  def from(n: Int): stream.Stream[Int] = {
-    cons(n, from(n+1))
-  }
+//  def constant[A](a: A): stream.Stream[A] = {
+//    lazy val st: stream.Stream[A] = Cons(a, st)
+//    st
+//  }
+//
+//  //Ex 5.9
+//  def from(n: Int): stream.Stream[Int] = {
+//    cons(n, from(n+1))
+//  }
 
   private def nextFib(n1: Int, n2: Int): stream.Stream[Int] = {
     stream.Stream.cons(n1, nextFib(n2, n1+n2))

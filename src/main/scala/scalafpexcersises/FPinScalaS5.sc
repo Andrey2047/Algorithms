@@ -20,5 +20,5 @@ s.toList
 
 //ex 5.4
 
-import scalafp._
+import scalafpexcersises._
 

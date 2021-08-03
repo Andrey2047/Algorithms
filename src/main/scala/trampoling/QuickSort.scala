@@ -1,9 +1,6 @@
 package trampoling
 
-import scalafp.io.tailRec.{ Return, Suspend, TailRec }
-import trampoling.QuickSort.quickSortT
-
-import scala.annotation.tailrec
+import scalafpexcersises.io.tailRec.{ Suspend, TailRec, Return }
 
 object QuickSort {
 

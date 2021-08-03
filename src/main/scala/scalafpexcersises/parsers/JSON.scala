@@ -1,6 +1,6 @@
-package scalafp.parsers
+package scalafpexcersises.parsers
 
-import scalafp.parsers.ParserInstances.Parser
+import scalafpexcersises.parsers.ParserInstances.Parser
 
 trait JSON
 
@@ -62,8 +62,8 @@ object JSONExample extends App {
 ]
 """
 
-  val P = scalafp.parsers.Reference
-  import scalafp.parsers.ReferenceTypes.Parser
+  val P = scalafpexcersises.parsers.Reference
+  import scalafpexcersises.parsers.ReferenceTypes.Parser
 
   def printResult[E](e: Either[E,JSON]) =
     e.fold(println, println)

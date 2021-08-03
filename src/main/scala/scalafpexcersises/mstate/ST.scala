@@ -1,4 +1,4 @@
-package scalafp.mstate
+package scalafpexcersises.mstate
 
 sealed trait ST[S,A] {
   self =>

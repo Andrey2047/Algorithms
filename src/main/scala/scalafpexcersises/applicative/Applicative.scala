@@ -1,4 +1,4 @@
-package scalafp.applicative
+package scalafpexcersises.applicative
 
 import scalafp.monad.Functor
 

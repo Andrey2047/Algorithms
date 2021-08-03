@@ -1,4 +1,4 @@
-package scalafp.monoid
+package scalafpexcersises.monoid
 
 sealed trait Tree[+A]
 

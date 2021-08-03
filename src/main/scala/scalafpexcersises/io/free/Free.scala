@@ -1,7 +1,7 @@
-package scalafp.io.free
+package scalafpexcersises.io.free
 
 import scalafp.monad.Monad
-import scalafp.paralelism.Par.Par
+import scalafpexcersises.paralelism.Par.Par
 
 import scala.annotation.tailrec
 

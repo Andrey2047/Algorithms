@@ -1,6 +1,6 @@
-package scalafp.testing
+package scalafpexcersises.testing
 
-import scalafp.state.State
+import scalafpexcersises.state.State
 
 case class SGen[A](forSize: Int => Gen[A]) {
   def apply(n: Int): Gen[A] = forSize(n)

@@ -1,9 +1,11 @@
-package scalafpexcersises;
+package scalafpexcersises
+
+import java.util.concurrent.ExecutorService
 
 object Executors {
   val cores = Runtime.getRuntime.availableProcessors
 
-  lazy val fixedThreadPool: ExecutorService = E.newFixedThreadPool(1)
+  lazy val fixedThreadPool: ExecutorService = java.util.concurrent.Executors.newFixedThreadPool(1)
 
-  lazy val singleThreadPool: ExecutorService = E.newSingleThreadExecutor()
+  lazy val singleThreadPool: ExecutorService = java.util.concurrent.Executors.newSingleThreadExecutor()
 }

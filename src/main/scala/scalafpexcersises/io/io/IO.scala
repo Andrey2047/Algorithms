@@ -1,4 +1,4 @@
-package scalafp.io.io
+package scalafpexcersises.io.io
 
 import scala.io.StdIn
 

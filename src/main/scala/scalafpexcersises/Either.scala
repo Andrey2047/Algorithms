@@ -1,4 +1,4 @@
-package scalafp
+package scalafpexcersises
 
 sealed trait Either[+E, +A] {
 

@@ -1,8 +1,8 @@
-package scalafp.io.par
+package scalafpexcersises.io.par
 
 import java.util.concurrent.Executors
 
-import scalafp.paralelism.Par
+import scalafpexcersises.paralelism.Par
 
 object Runner {
 

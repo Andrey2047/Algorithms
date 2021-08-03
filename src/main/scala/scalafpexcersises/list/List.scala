@@ -1,4 +1,4 @@
-package scalafp.list
+package scalafpexcersises.list
 
 import scala.annotation.tailrec
 
